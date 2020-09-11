@@ -41,7 +41,23 @@ public class GamblerProgram
                 {
                 System.out.println("He won Money = "+(stakeMoney-100)+" Day = "+day);
                 }
-           }
+            }
+          System.out.println("<@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>");
+          System.out.println("Maximunm Loss in Month = "+month_Loss);
+          System.out.println("Maximunm Profit in Month = "+month_Win);
+          System.out.println("<@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>");
+          if(month_Loss > month_Win)
+          {
+           System.out.println("Loss in the months"+(month_Loss - month_Win));
+          }
+          else if(month_Loss == month_Win)
+          {
+           System.out.println("Equal in the months_Win"+month_Win+"month_Loss"+ month_Loss);
+          }
+          else
+          {
+           System.out.println("profit in the months"+(month_Win - month_Loss));
+          }
       }
 
        public static void main(String args[])
