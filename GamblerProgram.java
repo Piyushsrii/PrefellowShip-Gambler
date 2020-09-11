@@ -70,7 +70,19 @@ public class GamblerProgram
 
        public static void main(String args[])
        {
-           gamblerGame();
-       }
+           gamblerGame();//Method call
 
+          System.out.println("You want to play again? : If Yes press 0 otherwise press 1");
+          int end_Game=scan.nextInt();
+          if(end_Game==1)
+          {
+              System.out.println("Stop the game here");
+          }
+          else
+          {
+              System.out.println("For the next month");
+              gambleGame();
+          }
+
+       }
 }
