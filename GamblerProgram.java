@@ -36,10 +36,14 @@ public class GamblerProgram
                 if(stakeMoney == 50)
                 {
                 System.out.println("He Lost Money = "+stakeMoney+" Day ="+day);
+                month_Loss += 50;
+                UnLuckiestDay++;
                 }
                 else
                 {
                 System.out.println("He won Money = "+(stakeMoney-100)+" Day = "+day);
+                month_Loss += 50;
+                UnLuckiestDay++;
                 }
             }
           System.out.println("<@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>");
@@ -58,6 +62,10 @@ public class GamblerProgram
           {
            System.out.println("profit in the months"+(month_Win - month_Loss));
           }
+          System.out.println("<@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>");
+          System.out.println("Luckiest Day is = "+ LuckiestDay);
+          System.out.println("UnLuckiest Day is = "+ UnLuckiestDay);
+          System.out.println("<@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>");
       }
 
        public static void main(String args[])
