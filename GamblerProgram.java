@@ -36,10 +36,12 @@ public class GamblerProgram
                 if(stakeMoney == 50)
                 {
                 System.out.println("He Lost Money = "+stakeMoney+" Day ="+day);
+                month_Loss += 50;
                 }
                 else
                 {
                 System.out.println("He won Money = "+(stakeMoney-100)+" Day = "+day);
+                month_Win += 50;
                 }
             }
           System.out.println("<@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@>");
