@@ -2,6 +2,6 @@
 
 public class GamblerProgram
 {
-       static final int stakeMoney=100; //Initiaze the Constant Variable
-       static final int betMoney=1;
+       static final int StakeMoney=100; //Initiaze the Constant Variable
+       static final int BetMoney=1;
 }
